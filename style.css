@@ -1,0 +1,63 @@
+/* variáveis */
+:root { 
+  --cor-primária: #000;
+  --cor-secundária: #F90;
+  --cor-terciária: #7D7987;
+  --cor-quartenária: #ECEFF2;
+  --fonte-primária: 'Inter' Tight, sem serifa;
+  --fonte-secundária: 'Open Sans', sans-serif; 
+}
+
+body {
+  font-family: var(--fonte-secundária);
+  color: var(--cor-terciária);
+  text-align: center;
+  width: 592px;
+  height: 579px;
+  margin: auto;
+  font-size: 14px;
+  line-height: 28px;
+}
+
+body p {
+  margin-top: 32px;
+  margin-bottom: 50px;
+}
+
+/* título */
+h1 {
+  font-family: var(--fonte-primária);
+  font-weight: 400;
+  color: var(--cor-primária);
+  font-size: 49px;
+  line-height: 56px;
+  margin-top: 72px;
+}
+
+/* cor laranja no título */
+h1 span {
+  font-weight: bold;
+}
+
+/* cor laranja no parágrafo */
+.palavrasLaranjas, a {
+  color: var(--cor-secundária);
+}
+
+/* rodapé */
+footer {
+  margin-top: 80px;
+  height: 1px;
+  background: var(--cor-quartenária);
+}
+
+a + a {
+  margin-left: 28px;
+}
+
+/* posicionamento da imagem de bolinhas */
+.imagemBolinhas{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
